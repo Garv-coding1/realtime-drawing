@@ -1,0 +1,39 @@
+body {
+    background-size: cover;
+    background-repeat:none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header{
+    width:100%;
+    box-shadow: 5px 7px 5px rgb(57, 129, 63);
+    margin-top: -4px;
+    font-size: 30px;
+    background-color:darkred;
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.note {
+    font-size: 17px;
+    color:rgb(148, 150, 32);
+}
+
+.square {
+    font-size:22px;
+    margin-top:7px;
+}
+
+.copyright_footer{
+    width:100%;
+    bottom:0;
+    text-align: center;
+    background-color: coral;
+    line-height: 3;
+    position:fixed;
+}
+
+canvas {
+    box-shadow: 5px 7px 5px gray;
+    border: ridge 3px orange;
+}
